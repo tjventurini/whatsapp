@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Exec=/path/to/whatsapp-dir/whatsapp
+Name=Whatsapp
+Comment=Custom whatsapp client for linux.
+Icon=/path/to/whatsapp-dir/resources/app/icon.png
+Terminal=false
+Categories=Social
