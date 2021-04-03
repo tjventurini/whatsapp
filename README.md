@@ -21,7 +21,7 @@ docker pull nativefier/nativefier
 Now you can build the electron application using the following command.
 
 ```bash
-docker run --rm -v /path/to/whatsapp-repo:/src -v /tmp:/target nativefier/nativefier --icon /src/icon.png --name whatsapp -p linux -a x64 --single-instance --tray https://whatsapp.com/ /target/
+docker run --rm -v /home/thomas/codes/apps/whatsapp:/src -v /tmp:/target nativefier/nativefier --icon /src/icon.png --name whatsapp -p linux -a x64 --single-instance --tray --user-agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" https://web.whatsapp.com/ /target/
 ```
 
 Now you can copy the build wherever you want.
